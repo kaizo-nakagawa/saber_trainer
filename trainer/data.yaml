@@ -1,13 +1,13 @@
-train: ./trainer/train/images
-val: ./trainer/valid/images
-test: ./trainer/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 10
-names: ['celurit', 'darah', 'gunting', 'kapak', 'kayu', 'pemukul', 'pisau', 'pistol', 'robbery', 'tongkat']
+nc: 7
+names: ['celurit', 'gunting', 'kapak', 'pisau', 'pistol', 'robbery', 'tongkat pemukul']
 
 roboflow:
-  workspace: pkmsaber
-  project: saber_pkm
-  version: 2
+  workspace: pkmsaber-kcf6v
+  project: saber_pkm-g8p45
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/pkmsaber/saber_pkm/dataset/2
+  url: https://universe.roboflow.com/pkmsaber-kcf6v/saber_pkm-g8p45/dataset/3
