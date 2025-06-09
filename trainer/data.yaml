@@ -1,9 +1,9 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: raw/train/images
+val:   raw/valid/images   # atau raw/val/images jika folder validasimu bernama 'val'
+test:  raw/test/images
 
 nc: 7
-names: ['celurit', 'gunting', 'kapak', 'pisau', 'pistol', 'robbery', 'tongkat pemukul']
+names: ['celurit','gunting','kapak','pisau','pistol','robbery','tongkat pemukul']
 
 roboflow:
   workspace: pkmsaber-kcf6v
