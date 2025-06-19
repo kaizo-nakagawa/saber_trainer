@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['celurit', 'kapak', 'pisau', 'pistol', 'robbery', 'tongkat pemukul']
+
+roboflow:
+  workspace: pkmsaber-kcf6v
+  project: tugas_akhir-bfs8n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pkmsaber-kcf6v/tugas_akhir-bfs8n/dataset/1
