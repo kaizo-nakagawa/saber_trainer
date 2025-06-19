@@ -1,6 +1,6 @@
-train: ../raw/train/images
-val: ../raw/valid/images
-test: ../raw/test/images
+train: train/images
+val:   valid/images
+test:  test/images
 
 nc: 6
 names: ['celurit', 'kapak', 'pisau', 'pistol', 'robbery', 'tongkat pemukul']
